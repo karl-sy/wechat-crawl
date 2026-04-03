@@ -1,0 +1,5 @@
+flask==3.0.0
+requests==2.31.0
+fake-useragent==1.5.1
+selenium==4.15.2
+webdriver-manager==4.0.1

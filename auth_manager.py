@@ -4,6 +4,7 @@
 import time
 import os
 
+from cookie_manager import WeixinMpCrawler
 from wechatarticles import PublicAccountsWeb
 # ============ 核心类：认证与凭证管理 ============
 

@@ -105,10 +105,8 @@ def crawl_and_rank(
 if __name__ == "__main__":
     # 你可以根据需要改成 argparse / configparser，这里保持示例的直接调用风格
     crawl_and_rank(
-        account_list = ["探索AGI", "大海 程序员转AI日记", "人民日报", "新华社", "CSDN"],
-        articles_per_account=15,
-        days=2,
-        keywords=["嘉定校区", "济人楼", "艺嘉楼"],   # ✅ 如需自定义请修改
-        weights=[1.5, 1.2, 1.0],                    # ✅ 权重应与关键词一一对应
+        account_list = ["探索AGI", "大海 程序员转AI日记"],
+        articles_per_account=20,
+        days=3,
         headless=False                              # ✅ 设为 True 则无头运行
     )
